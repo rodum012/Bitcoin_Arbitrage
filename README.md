@@ -6,7 +6,8 @@ An application used to compare two platforms (Bitstamp and Coinbase) that trade 
 
 ## Technologies
 
-This application is written in Python v. 3.9.7 and uses the following libraries:
+This application is written in Python v. 3.9.7 and uses [JupyterLab](https://jupyter.org/) to deploy the code. This application makes use of
+ the following libraries:
 
 [pathlib](https://docs.python.org/3/library/pathlib.html) was used to call on various files and to save the resulting csv file
 
@@ -25,6 +26,8 @@ Prior to running this application, perform the following in the command line to 
 `pip install pandas`
 
 `pip install matplotlib`
+
+`pip install jupyterlab`
 
 ---
 
